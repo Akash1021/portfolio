@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+    <nav>
+        <h3 class="logo">AKASH S</h3>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+        
+      </nav>
+      <div class="header-grid">
+        <div class="social">
+          <a href="www.linkedin.com/in/akash-s-b94314210"><i class="fa-brands fa-linkedin-in" ></i></a>
+          <a href="https://github.com/Akash1021"><i class="fa-brands fa-github-alt" ></i></a>
+          <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="header-text">
+            <h4>Welcome to my site</h4>
+            <h1>Hi! I’m Akash<br>
+              Front End <span style="color: #E7B537 ;"> Developer</span></h1>
+              
+            <!-- <p>B.sc Computer Science'23 SIMATS <br> Passionate in Front End Development | Fresher. <br>
+            </p> -->
+            
+            <a href="images/Akash_S Resume.pdf" download class="btn">Download CV</a>
+            
+          </div>
+          <div class="header-image">
+            <img src="images/user1.jpg">
+          </div>
+      </div>
+      
+     
+    </div>
+    </div>
+    <!------------- about ------------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p style="color:#5788b3 ;">I'm Akash, a Computer Science graduate passionate about web development. I've gained hands-on experience in Front-end Development and Manual Testing during my internship. I'm enthusiastic about creating user-friendly web experiences and eager to contribute to dynamic projects to enhance my expertise.</p>
+
+            <div class="tab-titles">
+              <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-link" onclick="opentab('education')">Education</p>
+              <p class="tab-link" onclick="opentab('experience')">Experience</p>
+              <p class="tab-link" onclick="opentab('certifications')">Certifications</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming</span><br>Java Script,Django,Python</li>
+                <li><span>Web Development</span><br>HTML,CSS</li>
+                <li><span>Tools</span><br>Vs Code,Figma</li>
+                <li><span>Others</span><br>Ms Ofice,Manual Testing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>B.sc Computer Science</span><br>Saveetha university, 2020-2023 </li>
+                <li><span>Higher Secondary</span><br>St.Joseph Mat Hr Sec School,2019-2020</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Front End Developer-Intern</span><br>Ispider Software Solutions, Dec 2022 - Feb 2023 <br><br><p>Designed and developed user interfaces for website or web application using HTML, CSS, and JavaScript.<br><br>
+                  Performed manual testing, identified multiple bugs, and collaborated with
+                  the development team to provide detailed bug reports. Utilized strong
+                  communication and problem-solving skills to ensure timely and effective
+                  resolution of issues</p></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certifications">
+              <ul>
+                <li><span>Python for Data Science</span><br><a href="https://drive.google.com/file/d/1hdfVCb1F_TMbHDK3lmQxzCnmhzFKHvwe/view?usp=drive_link">NPTEL</a></li>
+                <li><span>Responsive Web Design</span><br><a href="https://www.freecodecamp.org/certification/Akash21/responsive-web-design">Freecodecamp</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Amenity Management System</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, esse mollitia.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>Amenity Management System</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, esse mollitia.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Amenity Management System</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, esse mollitia.</p>
+              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------Contact-------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-envelope"></i> akash2110200@gmail.com </p>
+            <p><i class="fa-solid fa-phone"></i> 8754634890</p>
+            <div class="social-icon">
+              <a href="www.linkedin.com/in/akash-s-b94314210"><i class="fa-brands fa-linkedin-in" ></i></a>
+              <a href="https://github.com/Akash1021"><i class="fa-brands fa-github-alt" ></i></a>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <h1>Send a Message</h1>
+            <form>
+              <input type="text" name="name" placeholder="Enter Your name" required>
+              <input type="email" name="email" placeholder="Enter your mail-id" required>
+              <textarea name="Message" rows="6" placeholder="Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Akash S </p>
+      </div>
+    </div>
+
+    <script>
+      var tablink = document.getElementsByClassName("tab-link");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablinks of tablink){
+          tablinks.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+      
+      
+
+    </script>
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+  sidemenu.style.right="0px";
+}
+
+function closemenu(){
+  sidemenu.style.right="-200px";
+}
+</script>
+</body>
+
+</html>
