@@ -482,7 +482,7 @@ nav .fas{
   display: none;
 }
 
-@media only screen and (max-width:770px){
+@media  screen and (max-width:768px){
 
   .header-image{
     top: 15%;
