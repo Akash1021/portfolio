@@ -6,13 +6,14 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="header">
       <div class="container">
     <nav>
-        <h3 class="logo">AKASH S</h3>
+        <img src="images/logo 3.png" class="logo">
         <ul id="sidemenu">
           <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -24,12 +25,12 @@
         
       </nav>
       <div class="header-grid">
-        <div class="social">
+        <div class="social" data-aos="fade-down" data-aos-delay="250">
           <a href="www.linkedin.com/in/akash-s-b94314210"><i class="fa-brands fa-linkedin-in" ></i></a>
           <a href="https://github.com/Akash1021"><i class="fa-brands fa-github-alt" ></i></a>
           <i class="fa-solid fa-envelope"></i>
           </div>
-          <div class="header-text">
+          <div class="header-text" data-aos="fade-down" data-aos-delay="250">
             <h4>Welcome to my site</h4>
             <h1>Hi! I’m Akash<br>
               Front End <span style="color: #E7B537 ;"> Developer</span></h1>
@@ -37,11 +38,11 @@
             <!-- <p>B.sc Computer Science'23 SIMATS <br> Passionate in Front End Development | Fresher. <br>
             </p> -->
             
-            <a href="images/Akash_S Resume.pdf" download class="btn">Download CV</a>
+            <a href="images/Akash_S Resume.pdf" download class="btn" data-aos="fade-down" data-aos-delay="250">Download CV</a>
             
           </div>
           <div class="header-image">
-            <img src="images/user1.jpg">
+            <img src="images/AK 2.png" data-aos="fade-down" data-aos-delay="250">
           </div>
       </div>
       
@@ -52,20 +53,20 @@
     <div id="about">
       <div class="container">
         <div class="row">
-          <div class="about-col-1">
-            <img src="images/user.png">
+          <div class="about-col-1" >
+            <img src="images/AK 6.jpg" data-aos="fade-down" data-aos-delay="250">
           </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p style="color:#5788b3 ;">I'm Akash, a Computer Science graduate passionate about web development. I've gained hands-on experience in Front-end Development and Manual Testing during my internship. I'm enthusiastic about creating user-friendly web experiences and eager to contribute to dynamic projects to enhance my expertise.</p>
+          <div class="about-col-2" >
+            <h1 class="sub-title" data-aos="fade-down" data-aos-delay="250">About Me</h1>
+            <p style="color:#5788b3 ;" data-aos="fade-down">I'm Akash, a Computer Science graduate passionate about web development. I've gained hands-on experience in Front-end Development and Manual Testing during my internship. I'm enthusiastic about creating user-friendly web experiences and eager to contribute to dynamic projects to enhance my expertise.</p>
 
-            <div class="tab-titles">
+            <div class="tab-titles" data-aos="fade-down" data-aos-delay="250">
               <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
               <p class="tab-link" onclick="opentab('education')">Education</p>
               <p class="tab-link" onclick="opentab('experience')">Experience</p>
               <p class="tab-link" onclick="opentab('certifications')">Certifications</p>
             </div>
-            <div class="tab-contents active-tab" id="skills">
+            <div class="tab-contents active-tab" id="skills" data-aos="fade-down" data-aos-delay="250">
               <ul>
                 <li><span>Programming</span><br>Java Script,Django,Python</li>
                 <li><span>Web Development</span><br>HTML,CSS</li>
@@ -100,31 +101,31 @@
       </div>
     </div>
 
-    <div id="projects">
+    <div id="projects" data-aos-anchor-placement='bottom-bottom'>
       <div class="container">
-        <h1 class="sub-title">My Projects</h1>
+        <h1 class="sub-title" data-aos="fade-down" data-aos-delay="250">My Projects</h1>
         <div class="work-list">
-          <div class="work">
-            <img src="images/work-1.png">
+          <div class="work" data-aos="fade-down" data-aos-delay="250">
+            <img src="images/project1.jpg">
             <div class="layer">
               <h3>Amenity Management System</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, esse mollitia.</p>
-              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <p>During my internship, I worked on this project called the "Amenity Management System," which allows users to pre-book amenities within their apartments.</p>
+              <a href="https://www.amenitymanagementsystem.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
           </div>
-          <div class="work">
-            <img src="images/work-2.png">
+          <div class="work" data-aos="fade-down" data-aos-delay="250">
+            <img src="images/project2.jpg">
             <div class="layer">
-              <h3>Amenity Management System</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, esse mollitia.</p>
-              <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <h3>City Weather</h3>
+              <p>This website helps you to check the weather in your city.</p>
+              <a href="https://akash1021.github.io/cityweather/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
           </div>
-          <div class="work">
-            <img src="images/work-3.png">
+          <div class="work" data-aos="fade-down" data-aos-delay="250">
+            <img src="images/project3.jpg">
             <div class="layer">
-              <h3>Amenity Management System</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, esse mollitia.</p>
+              <h3>Calculator</h3>
+              <p>This project marks my initial endeavor after gaining proficiency in HTML, CSS, and JavaScript.</p>
               <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
           </div>
@@ -148,12 +149,13 @@
           </div>
           <div class="contact-right">
             <h1>Send a Message</h1>
-            <form>
+            <form name="submit-to-google-sheet">
               <input type="text" name="name" placeholder="Enter Your name" required>
               <input type="email" name="email" placeholder="Enter your mail-id" required>
               <textarea name="Message" rows="6" placeholder="Message" required></textarea>
               <button type="submit" class="btn btn2">Submit</button>
             </form>
+            <span id="msg"></span>
           </div>
         </div>
       </div>
@@ -161,7 +163,6 @@
         <p>Copyright © Akash S </p>
       </div>
     </div>
-
     <script>
       var tablink = document.getElementsByClassName("tab-link");
       var tabcontents = document.getElementsByClassName("tab-contents");
@@ -190,6 +191,32 @@ function openmenu(){
 function closemenu(){
   sidemenu.style.right="-200px";
 }
+
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzF3c9miOLEDQuhzh1EFON29yTjl2gMTgC4Xl8Z0UxGDXKdOt1ZBk9Pm2Q4znjQH7NZ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message Sent Successfully";
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+  AOS.init({
+    once: false,
+    duration: 1200,
+  });
 </script>
 </body>
 
